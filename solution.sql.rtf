@@ -1,0 +1,114 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue-UltraLight;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red84\green87\blue89;\red38\green38\blue38;\red242\green242\blue242;
+\red30\green60\blue255;\red191\green43\blue36;\red20\green30\blue185;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid301\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid401\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid501\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid601\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid701\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid8}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}}
+\margl1440\margr1440\vieww18280\viewh14140\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 solution.sql\
+\pard\pardeftab720\sl520\sa200
+
+\f1\fs48 \cf2 \expnd0\expndtw0\kerning0
+Example question and answer\
+\pard\pardeftab720\sl360
+
+\f2\fs26 \cf3 \cb4 \expnd0\expndtw0\kerning0
+-- 0. Get all the users\
+SELECT * FROM syntax_practice;\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\f3\fs26 \cf2 \'97	1.	\expnd0\expndtw0\kerning0
+Get all users from Chicago.\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf5 \kerning1\expnd0\expndtw0 SELECT\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 WHERE\cf0  \cf6 "city"\cf0  \cf5 LIKE\cf0  \cf6 'chicago'\cf0 ;
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'97	}2.	\expnd0\expndtw0\kerning0
+Get all users with usernames that contain the letter a.\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf5 \kerning1\expnd0\expndtw0 SELECT\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 WHERE\cf0  \cf6 "username"\cf0  \cf5 LIKE\cf0  \cf6 '%a%'\cf0 ;
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \'97	3.	\expnd0\expndtw0\kerning0
+The bank is giving a new customer bonus! Update all records with an account balance of 0.00 and a transactions_attempted of 0. Give them a new account balance of 10.00.\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf5 \kerning1\expnd0\expndtw0 SELECT\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 WHERE\cf0  (\cf6 "account_balance"\cf0  = 0 \cf5 AND\cf0  \cf6 "transactions_attempted"\cf0  = 0);\
+cmd return\
+\pard\pardeftab770\pardirnatural
+\cf7 UPDATE\cf0  \cf6 "syntax_practice"\cf0  \cf7 SET\cf0  \cf6 "account_balance"\cf0  = 10 \cf5 WHERE\cf0  (\cf6 "account_balance"\cf0  = 0 \cf5 AND\cf0  \cf6 "transactions_attempted"\cf0  = 0);
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls4\ilvl0\cf2 \kerning1\expnd0\expndtw0 \'97	4.	\expnd0\expndtw0\kerning0
+Select all users that have attempted 9 or more transactions.\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf5 \kerning1\expnd0\expndtw0 SELECT\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 WHERE\cf0  \cf6 "transactions_attempted"\cf0  >= 9;
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls5\ilvl0\cf2 \kerning1\expnd0\expndtw0 \'97	5.	\expnd0\expndtw0\kerning0
+Get the username and account balance of the 3 users with the highest balances, sort highest to lowest balance. NOTE: Research LIMIT\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf5 \kerning1\expnd0\expndtw0 SELECT\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 ORDER\cf0  \cf7 BY\cf0  \cf6 "account_balance"\cf0  \cf5 DESC\cf0  \cf5 LIMIT\cf0  3;
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls6\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	1.	}\'97	6.	\expnd0\expndtw0\kerning0
+Get the username and account balance of the 3 users with the lowest balances, sort lowest to highest balance.\
+\pard\pardeftab770\pardirnatural
+\ls6\ilvl0
+\f2\fs32 \cf5 \kerning1\expnd0\expndtw0 {\listtext	2.	}SELECT\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 ORDER\cf0  \cf7 BY\cf0  \cf6 "account_balance"\cf0  \cf5 ASC\cf0  \cf5 LIMIT\cf0  3;
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls6\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	3.	}\'97	7.	\expnd0\expndtw0\kerning0
+Get all users with account balances that are more than $100.\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf5 \kerning1\expnd0\expndtw0 SELECT\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 WHERE\cf0  \cf6 "account_balance"\cf0  > 100;
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls7\ilvl0\cf2 \kerning1\expnd0\expndtw0 \'97	8.	\expnd0\expndtw0\kerning0
+Add a new record.\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf7 \kerning1\expnd0\expndtw0 INSERT\cf0  \cf5 INTO\cf0  \cf6 "syntax_practice"\cf0  (\cf6 "username"\cf0 , \cf6 "city"\cf0 , \cf6 "transactions_completed"\cf0 , \cf6 "transactions_attempted"\cf0 , \cf6 "account_balance"\cf0 ) \cf7 VALUES\cf0  (\cf6 'PhilCurtis'\cf0 , \cf6 'new york'\cf0 , 0, 0, 0);
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls8\ilvl0\cf2 \kerning1\expnd0\expndtw0 \'97	9.	\expnd0\expndtw0\kerning0
+The bank is losing money in Miami and Phoenix and needs to unload low transaction customers: Delete users that reside in miami OR phoenix and have completed fewer than 5 transactions.\
+\pard\pardeftab770\pardirnatural
+
+\f2\fs32 \cf7 \kerning1\expnd0\expndtw0 DELETE\cf0  * \cf5 FROM\cf0  \cf6 "syntax_practice"\cf0  \cf5 WHERE\cf0  (\cf6 "city"\cf0  = \cf6 'miami'\cf0  \cf5 OR\cf0  \cf6 "city"\cf0  = \cf6 'phoenix'\cf0 ) \cf5 AND\cf0  \cf6 "transactions_completed"\cf0  < 5;
+\f3\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \
+\
+\
+\
+}
